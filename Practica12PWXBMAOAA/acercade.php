@@ -51,7 +51,7 @@
             padding: 30px 25px;
         }
         
-        /* === NUEVO DISEÑO SEGURO PARA LA FOTO === */
+        /* === DISEÑO DE MI FOTO === */
         .foto-desarrollador {
             text-align: center;
             margin-bottom: 25px;
