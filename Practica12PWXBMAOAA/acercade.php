@@ -126,7 +126,7 @@
         </div>
          
         <div class="avatar-container">
-            <img src="images/miFoto.jpeg" alt="Foto de Desarrollador" class="avatar">
+            <img src="Practica12PWXBMAOAA/images/miFoto.jpeg" alt="Foto de Desarrollador" class="avatar">
         </div>
         <div class="card-body">
             <div class="info-group">
