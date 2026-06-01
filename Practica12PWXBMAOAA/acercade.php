@@ -34,7 +34,7 @@
         .card-header {
             background: linear-gradient(135deg, #4f46e5, #4338ca);
             color: #ffffff;
-            padding: 30px 25px 45px 25px; /* Ajustado el espacio inferior para acomodar la foto */
+            padding: 30px 25px 45px 25px;
             text-align: center;
         }
         .card-header h1 {
@@ -47,27 +47,23 @@
             font-size: 14px;
             opacity: 0.9;
         }
-        
-        /* === ESTILOS CSS PARA RECUADRO CIRCULAR DE LA FOTO === */
         .avatar-container {
             text-align: center;
-            margin-top: -50px; /* Eleva la foto para que cubra parte del fondo azul */
+            margin-top: -50px;
             position: relative;
             z-index: 10;
         }
         .avatar {
             width: 100px;
             height: 100px;
-            border-radius: 50%; /* Hace la imagen perfectamente circular */
-            border: 4px solid #ffffff; /* Marco blanco elegante */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra suave */
-            object-fit: cover; /* Evita que tu foto se distorsione o estire */
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            object-fit: cover;
             background-color: #ffffff;
         }
-        /* ===================================================== */
-
         .card-body {
-            padding: 20px 25px 30px 25px; /* Ajustado para que empiece limpio abajo de la foto */
+            padding: 20px 25px 30px 25px;
         }
         .info-group {
             margin-bottom: 20px;
@@ -126,8 +122,9 @@
         </div>
          
         <div class="avatar-container">
-            <img src="Practica12PWXBMAOAA/images/miFoto.jpeg" alt="Foto de Desarrollador" class="avatar">
+            <img src="https://github.com/Abraham-Mtz.png" alt="Foto de Desarrollador" class="avatar">
         </div>
+        
         <div class="card-body">
             <div class="info-group">
                 <div class="info-label">Proyecto</div>
