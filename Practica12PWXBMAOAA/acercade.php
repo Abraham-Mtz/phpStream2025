@@ -119,13 +119,13 @@
     <div class="card">
         <div class="card-header">
             <h1>ℹ️ Datos del Desarrollador</h1>
-            <p>Información Académica del Proyecto STEM</p>
+            <p>Mis Datos Personales</p>
         </div>
         
         <div class="card-body">
             
             <div class="foto-desarrollador">
-                <img src="Practica12PWXBMOAA/images/miFoto.jpeg" alt="Foto Abraham">
+                <img src="images/miFoto.jpeg" alt="Foto Abraham">
             </div>
 
             <div class="info-group">
