@@ -47,6 +47,23 @@
             font-size: 14px;
             opacity: 0.9;
         }
+        /* ---- ESTILOS AGREGADOS PARA TU FOTO ---- */
+        .avatar-container {
+            text-align: center;
+            margin-top: -50px;
+            position: relative;
+            z-index: 10;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            object-fit: cover;
+            background-color: #ffffff;
+        }
+        /* ---------------------------------------- */
         .card-body {
             padding: 30px 25px;
         }
@@ -105,6 +122,11 @@
             <h1>ℹ️ Datos del Desarrollador</h1>
             <p>Información Académica del Proyecto STEM</p>
         </div>
+         
+        <!-- BLOQUE AGREGADO PARA MOSTRAR TU FOTO -->
+        <div class="avatar-container">
+            <img src="images/miFoto.jpeg" alt="Foto de Desarrollador" class="avatar">
+        </div>
         
         <div class="card-body">
             <div class="info-group">
@@ -131,7 +153,7 @@
                 <div class="info-label">Grupo</div>
                 <div class="info-value">👥 <?php echo "XB"; ?></div>
             </div>
-            
+             
             <div style="text-align: center;">
                 <a href="index.php" class="btn-back">⬅️ Volver al Inicio</a>
             </div>
